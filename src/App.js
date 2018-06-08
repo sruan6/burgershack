@@ -9,14 +9,14 @@ import './App.css';
 class App extends Component {
 
   componentDidMount(){
-    const ele = document.getElementById('loader')
+    const ele = document.getElementById('loader');
     if(ele){
       setTimeout(() => {
         ele.classList.add('available')
         setTimeout(() => {
-          ele.outerHTML = ''
+          ele.outerHTML = '';
         }, 2000)
-      }, 1000)
+      }, 2000)
     }
   }
 
