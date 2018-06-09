@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class Location extends Component {
 	render() {
 		return (
+			<div className='location'>
 			<div className='row'>
 				<div className='col-sm-12 col-md-6'>
 					<a href='https://www.google.com/maps/place/Burger+Shack/data=!3m1!4b1!4m2!3m1!1s0x808580fb28ee016d:0x4bc1151d3b734095' target='_blank'><img src='https://maps.googleapis.com/maps/api/staticmap?scale=1&size=520x410&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visiblity:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=en&region=US&markers=color:0xddaa44|37.8055009,-122.4120484&zoom=16&client=google-presto&signature=zx7YM_UM9u00e0PLorAmLJQjwEw'/></a>
@@ -46,10 +47,8 @@ class Location extends Component {
 							</div>
 					</div>
 					</div>
-
 				</div>	
-
-
+			</div>
 			</div>
 		);
 	}
