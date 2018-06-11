@@ -1,0 +1,121 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+#loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  z-index: 2;
+  text-align: center;
+}
+#burger {
+  position: relative;
+  top: 30%;
+  height: auto;
+  width: auto;
+  z-index: 3;
+  padding: 0px;
+  margin: 0px;
+}
+/*Menu Page*/
+.menu .dot {
+  margin-top: 0px;
+  background: black;
+  height: 100%;
+  width: 100%;
+  border: 10px dotted white;
+  border-radius: 25px;
+  color: white;
+}
+.menu .dot h2 {
+  text-align: center;
+  font-family: 'Eater', cursive;
+}
+.menu .dot p {
+  text-align: center;
+}
+.menu .dot  h3 {
+
+  font-family: 'Combo', cursive;
+}
+.dot .container {
+  padding: 20px;
+}
+.location img {
+  width: 100%;
+  height: auto;
+}
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  #loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  z-index: 2;
+  text-align: center;
+}
+#burger {
+  position: relative;
+  top: 30%;
+  height: auto;
+  width: auto;
+  z-index: 3;
+  padding: 0px;
+  margin: 0px;
+}
+/*Menu Page*/
+.menu .dot {
+  margin-top: 20px;
+  background: black;
+  height: 100%;
+  width: 100%;
+  border: 10px dotted white;
+  border-radius: 25px;
+  color: white;
+}
+.menu .dot h2 {
+  text-align: center;
+  font-family: 'Eater', cursive;
+}
+.menu .dot p {
+  text-align: center;
+}
+.menu .dot  h3 {
+  font-family: 'Combo', cursive;
+}
+.dot .container {
+  padding: 20px;
+}
+.location img {
+  width: 100%;
+  height: auto;
+}
+ .navbar-nav{
+    padding-left: 85%;
+  }
+}
+
+/*# sourceMappingURL=css/style.css.map */
