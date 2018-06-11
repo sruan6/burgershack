@@ -6,7 +6,7 @@ class Menu extends Component {
 			<div className='menu'>
 				<div className='row'>
 
-					<div className='col-lg-1 col-md-1'></div>
+					<div className='col-lg-1 col-md-1 col'></div>
 
 						<div className='col-lg-10 col-md-10 col-12'>
 							<div className='dot'>
@@ -178,7 +178,7 @@ class Menu extends Component {
 							</div>
 						</div>
 
-					<div className='col-lg-1 col-md-1'></div>
+					<div className='col-lg-1 col-md-1 col'></div>
 
 				</div> 
 			</div> 

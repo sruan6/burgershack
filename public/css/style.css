@@ -23,6 +23,9 @@ body {
   margin: 0px;
 }
 /*Menu Page*/
+.menu {
+  overflow-x: hidden;
+}
 .menu .dot {
   margin-top: 0px;
   background: black;
@@ -40,7 +43,6 @@ body {
   text-align: center;
 }
 .menu .dot  h3 {
-
   font-family: 'Combo', cursive;
 }
 .dot .container {
