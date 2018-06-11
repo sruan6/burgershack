@@ -18,10 +18,10 @@ class Menu extends Component {
 											<div className="row">
 												<div className="col-lg-6 col-12">
 													<div className='row'>
-														<div className='col-md-9 col-8'>
+														<div className='col-md-9 col-9'>
 															<h3>1/4 lb Burger</h3>
 														</div>
-														<div className='col-md-3 col-4'>
+														<div className='col-md-3 col-3'>
 															<h3>6.25</h3>
 														</div>
 
@@ -29,24 +29,24 @@ class Menu extends Component {
 															<p>lettuce,tomatoe,and house mayo</p>
 														</div>
 
-														<div className='col-md-9 col-8'>
+														<div className='col-md-9 col-9'>
 															<h3>1/2 lb Burger</h3>
 														</div>
-														<div className='col-md-3 col-4'>
+														<div className='col-md-3 col-3'>
 															<h3>8.75</h3>
 														</div>
 
-														<div className='col-md-9 col-8'>
+														<div className='col-md-9 col-9'>
 															<h3>1/4 lb Shack Burger</h3>
 														</div>
-														<div className='col-md-3 col-4'>
+														<div className='col-md-3 col-3'>
 															<h3>6.25</h3>
 														</div>
 
-														<div className='col-md-9 col-8'>
+														<div className='col-md-9 col-9'>
 															<h3>1/2 lb Shack Burger</h3>
 														</div>
-														<div className='col-md-3 col-4'>
+														<div className='col-md-3 col-3'>
 															<h3>8.75</h3>
 														</div>
 
@@ -54,17 +54,17 @@ class Menu extends Component {
 												</div>
 												<div className="col-lg-6 col-12">
 													<div className='row'>
-														<div className='col-md-9 col-8'>
+														<div className='col-md-9 col-9'>
 															<h3>Veggie Burger</h3>
 														</div>
-														<div className='col-md-3 col-4'>
+														<div className='col-md-3 col-3'>
 															<h3>7.25</h3>
 														</div>
 
-														<div className='col-md-9 col-8'>
+														<div className='col-md-9 col-9'>
 															<h3>Turkey Burger</h3>
 														</div>
-														<div className='col-md-3 col-4'>
+														<div className='col-md-3 col-3'>
 															<h3>7.25</h3>
 														</div>
 													</div>
@@ -74,34 +74,34 @@ class Menu extends Component {
 												<div className="row">
 													<div className="col-lg-6 col-12">
 														<div className='row'>
-															<div className='col-lg-8 col-md-9 col-8'>
+															<div className='col-lg-8 col-md-9 col-9'>
 																<h3>French Fries</h3>
 															</div>
-															<div className='col-lg-4 col-md-3 col-4'>
+															<div className='col-lg-4 col-md-3 col-3'>
 																<h3>6.25</h3>
 															</div>
 														
-															<div className='col-lg-8 col-md-9 col-8'>
+															<div className='col-lg-8 col-md-9 col-9'>
 																<h3>Garlic Fries</h3>
 															</div>
-															<div className='col-lg-4 col-md-3 col-4'>
+															<div className='col-lg-4 col-md-3 col-3'>
 																<h3>6.25</h3>
 															</div>
 														</div>
 													</div>
 													<div className="col-lg-6 col-12">
 														<div className='row'>
-															<div className='col-lg-8 col-md-9 col-8'>
+															<div className='col-lg-8 col-md-9 col-9'>
 																<h3>Curly Fries</h3>
 															</div>
-															<div className='col-lg-4 col-md-3 col-4'>
+															<div className='col-lg-4 col-md-3 col-3'>
 																<h3>6.25</h3>
 															</div>
 														
-															<div className='col-lg-8 col-md-9 col-8'>
+															<div className='col-lg-8 col-md-9 col-9'>
 																<h3>Onion Rings</h3>
 															</div>
-															<div className='col-lg-4 col-md-3 col-4'>
+															<div className='col-lg-4 col-md-3 col-3'>
 																<h3>6.25</h3>
 															</div>
 														</div>
