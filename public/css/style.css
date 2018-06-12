@@ -2,6 +2,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 #loader {
   position: fixed;
@@ -22,44 +23,92 @@ body {
   padding: 0px;
   margin: 0px;
 }
-/*Menu Page*/
+/*Navbar*/
+.navbar {
+
+}
+.logo {
+
+}
+.navbar-toggler {
+  color: black;
+}
+.navbar-nav {
+  text-align: center;
+}
+
+
+
+
+  /*Menu Page*/
 .menu {
   overflow-x: hidden;
 }
-.menu .dot {
+.menuBorder {
   margin-top: 0px;
   background: black;
   height: 100%;
-  width: 100%;
   border: 10px dotted white;
-  border-radius: 25px;
+  border-radius: 10px;
   color: white;
 }
-.menu .dot h2 {
+/*Menu Page h2*/
+.foodTitle {
   text-align: center;
   font-family: 'Eater', cursive;
 }
-.menu .dot p {
+/*Menu Page p*/
+.foodDescription {
   text-align: center;
 }
-.menu .dot  h3 {
+/*Menu Page h3*/
+.foodName, .foodPrice {
   font-family: 'Combo', cursive;
 }
-.dot .container {
+.menuBorder .container {
   padding: 20px;
 }
+
+/*Location Page*/
 .location img {
   width: 100%;
   height: auto;
+}
+.title {
+  margin-top: 20px;
+}
+.address {
+  text-align: center;
+}
+.direction {
+  text-align: center;
+}
+.telePhone {
+  text-align: center;
+  margin-left: 30%;
+}
+.subTitle {
+  margin-top: 10px;
+  text-align: center;
+}
+/*business hours*/
+.hours {
+  text-align: center;
+}
+/*Footer*/
+.Footer {
+  position: relative;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 
 /*// Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap*/
 
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-
-}
+@media (min-width: 576px) {}
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {}
@@ -88,7 +137,24 @@ body {
   padding: 0px;
   margin: 0px;
 }
+
+/*Home Page*/
+.home {
+  min-height: 100vh;
+  width: 100%
+}
+.carousel-item {
+  background: black;
+}
+.carousel-inner img {
+  height: 30vh;
+  width: 10px; 
+ }
+
 /*Menu Page*/
+.menu {
+  min-height: 100vh;
+}
 .menu .dot {
   margin-top: 20px;
   background: black;
@@ -111,12 +177,20 @@ body {
 .dot .container {
   padding: 20px;
 }
+/*Location Page*/
 .location img {
   width: 100%;
   height: auto;
 }
  .navbar-nav{
     padding-left: 85%;
+  }
+  .Footer {
+    position: relative;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
   }
 }
 
