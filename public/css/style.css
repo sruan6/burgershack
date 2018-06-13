@@ -27,8 +27,10 @@ body {
   margin: 0px;
 }
 /*Navbar*/
-.navbar {
-
+.navbar-toggler {
+  width: 50px;
+  font-weight: 2px;
+  border-radius: 5px;
 }
 .logo img {
   width: 100px;
