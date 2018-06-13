@@ -31,11 +31,8 @@ class Location extends Component {
 									2237 Powell Street, San Francisco, 
 										<br/>
 									CA, 94133
-										<div className='row'>
-											<div className='col-12'>
+									<br />
 												<button  className='btn btn-primary direction' onClick={this.mapsSelector}><a target='_blank'>Get Direction</a></button>
-											</div>
-										</div>
 									</p>
 
 								<h3 className='subTitle'>Contact</h3>
