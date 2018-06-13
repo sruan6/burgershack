@@ -16,10 +16,10 @@ class Location extends Component {
 		return (
 			<div className='location'>
 			<div className='row'>
-				<div className='col-sm-12 col-md-6'>
+				<div className='col-md-6 col-12'>
 					<img src='https://maps.googleapis.com/maps/api/staticmap?scale=1&size=520x410&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visiblity:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=en&region=US&markers=color:0xddaa44|37.8055009,-122.4120484&zoom=16&client=google-presto&signature=zx7YM_UM9u00e0PLorAmLJQjwEw' alt="map"/>
 				</div>
-				<div className='col-sm-12 col-md-6'>
+				<div className='col-md-6 col-12'>
 					<h2 className='d-flex justify-content-center title'>INFO</h2>
 
 					<div className='container'>
@@ -39,7 +39,7 @@ class Location extends Component {
 									</p>
 
 								<h3 className='subTitle'>Contact</h3>
-								<a  className='telePhone' href='tel:+1-415-523-6818'>(415)523-6818</a>
+								<p className='number'><a  className='telePhone' href='tel:+1-415-523-6818'>(415)523-6818</a></p>
 							</div>
 
 							<div className='col-md-6 col-12'>

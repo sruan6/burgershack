@@ -22,7 +22,7 @@ class Nav extends Component {
 			<Router>
 				<div>
 					<nav className="navbar navbar-expand-lg navbar-light">
-					  <a className="navbar-brand logo" href="/Home">Burger Shack</a>
+					  <a className="navbar-brand logo" href="/Home"><img src="/image/Burger_Shack_Logo.jpg" alt="logo" /></a>
 					  <button className="navbar-toggler" onClick={this.handleOpen} type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					  <ReactCSSTransitionGroup
 				          transitionName="example"

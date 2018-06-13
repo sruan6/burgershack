@@ -5,7 +5,13 @@ class Home extends Component {
 	render(){
 		return(
 			<div className="home">
-				<Carousel />
+				<div className='row'>
+					<div className='col-md-4'></div>
+						<div className='col-md-4 col-12'>
+							<Carousel />
+						</div>
+					<div className='col-md-4'></div>
+				</div>
 			</div>
 		)
 	}

@@ -1,8 +1,11 @@
 body {
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
+  min-height: 100%;
+  min-width: 100%;
   overflow-y: scroll;
+}
+.App {
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 #loader {
   position: fixed;
@@ -27,8 +30,8 @@ body {
 .navbar {
 
 }
-.logo {
-
+.logo img {
+  width: 100px;
 }
 .navbar-toggler {
   color: black;
@@ -73,6 +76,7 @@ body {
 .location img {
   width: 100%;
   height: auto;
+  padding: 0px;
 }
 .title {
   margin-top: 20px;
@@ -83,9 +87,11 @@ body {
 .direction {
   text-align: center;
 }
-.telePhone {
+.number {
   text-align: center;
-  margin-left: 30%;
+}
+.telePhone {
+  text-align: center;;
 }
 .subTitle {
   margin-top: 10px;
@@ -118,7 +124,7 @@ body {
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-  #loader {
+#loader {
   position: fixed;
   top: 0;
   right: 0;
@@ -137,23 +143,39 @@ body {
   padding: 0px;
   margin: 0px;
 }
-
+/*navbar*/
+.navbar {
+  height:10vh;
+}
+.logo img {
+  width: 100px;
+}
 /*Home Page*/
 .home {
-  min-height: 100vh;
-  width: 100%
+  min-height: 90vh;
+  width: 100%;
+}
+.carousel-inner {
+  background: white;
+}
+.carousel-indicators {
+  z-index: 1;
+}
+.carousel-indicators .active {
+  background: white;
 }
 .carousel-item {
-  background: black;
+  background-color: #000000;
 }
 .carousel-inner img {
-  height: 30vh;
-  width: 10px; 
+  height: 50vh;
+  width: 100%;
+  opacity: 0.5;
  }
 
 /*Menu Page*/
 .menu {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 .menu .dot {
   margin-top: 20px;
