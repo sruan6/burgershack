@@ -39,13 +39,16 @@ body {
 .navbar-nav {
   text-align: center;
 }
-
+.fas {
+  font-size: 20px;
+  font-weight: 2px;
+}
 
 
 
   /*Menu Page*/
 .menu {
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 .menuBorder {
   margin-top: 0px;
